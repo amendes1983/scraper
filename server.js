@@ -25,7 +25,7 @@ app.use(
 app.use(express.static("public"));
 
 
-mongoose.connect("mongodb://localhost/week18day3mongoose");
+mongoose.connect("mongodlab-graceful-20685");
 var db = mongoose.connection;
 
 // Show errors
